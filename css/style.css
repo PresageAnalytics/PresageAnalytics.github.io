@@ -150,7 +150,7 @@ input {
     margin: 3px 0;
     outline: none;
     line-height: normal;
-    font-size: 14px;
+    font-size: 22px;
 }
 
 input[type="submit"] {
@@ -478,7 +478,6 @@ section {
 
 #header {
     font-size: 13px;
-    color: #e4473c;
 }
 
 #header aside {
