@@ -13,16 +13,18 @@
 	font-family: "Inter", sans-serif;
 
   /* colors */
-  --color-blue: #2552d0;
-  --color-light-blue: #3266e3;
+  --color-blue: #00c0eb;
+  --color-light-blue: #7fd4e7;
   --color-gray: #e5e7eb;
+  --color-white: #fff;
   --color-dark-gray: #9da3ae;
   --color-pink: #edadd2;
+  --color-gold: #d2b356;
 }
 
 .formcarry-container {
   /* container */
-  --c-width: 50%;
+  --c-width: 100%;
   --c-max-width: 500px;
 
   width: var(--c-width);
@@ -38,6 +40,7 @@
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
+  width: 70%;
 }
 
 .formcarry-form input,
@@ -57,31 +60,49 @@
 .formcarry-form input:focus,
 .formcarry-form textarea:focus {
   background-color: #fff;
+  border-color: var(--color-gold);
   color: var(--color-dark-gray);
 }
 
 .formcarry-form input:focus:required:invalid {
-  border-color: var(--color-pink);
+  border-color: var(--color-gold);
   background-color: #fff;
 }
 
 .formcarry-form button {
   display: block;
-  margin-top: 12px;
-  width: 100%;
+  margin-top: 12px; 
+  /* width: 100%; */
   padding: 12px 20px;
-  border-radius: 8px;
-	border-color: transparent;
-  background-color: var(--color-blue);
-  color: #fff;
+  /* border-radius: 8px; */
+	/* border-color: transparent; */
+  /* background-color: var(--color-white); */
+  /* color: #fff; */
+  /* color: #000;
   font-weight: 700;
   font-size: 18px;
-
-  transition: 300ms all;
+  transition: 300ms all; */ 
+  /* font-size: 16px;
+  margin: 35px 0;
+  padding: 11px 16px;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+  display: inline-block;
+  border-width: 3px;
+  border-style: solid; */
+  font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+  font-size:14px;
+  font-weight:bold;
+  color:#111;
+  border-color:#111;
+  background-color: var(--color-white);
 }
 
 .formcarry-form button:hover {
-  background-color: var(--color-light-blue);
+  /* background-color: var(--color-light-blue); */
+  border-color:#d2b356;
+  color:#d2b356;
 }
 
 .formcarry-alert {

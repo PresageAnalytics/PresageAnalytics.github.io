@@ -31,7 +31,7 @@
     <!--Google Webfonts-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 </head>
   
 <body>
@@ -149,9 +149,7 @@
 
         <!--Banner Content-->
         <div id="banner-content" class="row clearfix">
-
             <div class="col-38">
-
                 <div class="section-heading">
                     <h1>A data-centric approach to finance</h1>
                     <h2>At Presage, we aim to make AI &amp; machine learning algorithms accessible to routine financial decision making processes. <br><br>
@@ -354,24 +352,41 @@
 
                     <!--Icon Block-->
                     <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
-                        <!--Icon-->
-                        <!-- <div class="formcarry-container"> -->
+                        <div class="formcarry-container">
+                            <!-- <form onsubmit="sendEmail(); reset(); return false;"> -->
+                            <form action="https://api.web3forms.com/submit" method="POST" class="formcarry-form">
                             <!-- <form action="#" method="POST" class="formcarry-form"> -->
-                            <!-- <form action="form-process.php" method="POST" class="formcarry-form">  
-                              <label for="name">Your Name</label>
-                              <input type="text" id="name" name="fullName" required />
-                      
-                              <label for="email">Your Email Address</label>
-                              <input type="email" id="email" name="email" required />
-                      
-                              <label for="message">Your Message</label>
-                              <textarea name="message" id="message" cols="130" rows="10"></textarea>
-                      
-                              <button type="submit">Send</button>
-                            </form>
-                          </div> -->
 
-                        <a href="#" class="button">Coming soon!</a>
+                                <input type="hidden" name="access_key" value="ae648c8e-37da-4efa-96b2-655d42bbbbd0">
+                                <!-- <form action="#" method="POST" class="formcarry-form"> -->
+                                <!-- <form action="form-process.php" method="POST" class="formcarry-form">   -->
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="fullName" required />
+
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required />
+
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" cols="130" rows="10"></textarea>
+
+                                <!-- Honeypot Spam Protection -->
+                                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+  
+                                <!-- hCaptcha: Recommended for Advanced Spam Protection. -->
+                                <!-- <div class="h-captcha" data-captcha="true"></div> -->
+                                <!-- have to add <script src="https://web3forms.com/client/script.js" async defer></script> -->
+                                
+                                <button type="submit">Contact Us</button>
+                            </form>
+
+                            <!-- <form onsubmit="reset(); return false;"></form> -->
+
+                          </div>
+
+                        <!-- <a href="#" class="button">Coming soon!</a> -->
+
+
+                        
                         <!-- <div class="icon">
                             <i class="fa fa-html5 fa-2x"></i>
                         </div> -->
@@ -696,6 +711,23 @@
 <script src="js/images-loaded.min.js"></script>
 <script src="js/lightbox.min.js"></script>
 <script src="js/site.js"></script>
+<!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+<!-- <script>
+    function sendEmail(){
+        Email.send({
+        Host : "smtp.gmail.com",
+        Username : "kullervo.wanona@gmail.com",
+        Password : "Lembas06",
+        To : 'petrichor.verdigris@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "Contact for inquiry from presageAI.xyz",
+        Body : "And this is the body"
+    }).then(
+    message => alert(message)
+    );
+
+    }
+</script> -->
 
 
 </body>
