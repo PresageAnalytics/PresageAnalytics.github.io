@@ -126,13 +126,13 @@ a:hover, #header.nav-solid nav a:hover {
 
 @media (max-width: 480px) {
 #banner {
-    background: url("../images/banner-images/banner-image-2.jpg") no-repeat center top;
+    background: url("../images/banner-images/banner-image-2.jpg") no-repeat center bottom;
     background-size:cover;
 }
 }
 @media (min-width: 481px) {
 #banner {
-    background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
+    background: url("../images/banner-images/banner-image-1.jpg") no-repeat center bottom;
     background-size:cover;
 }
 }
