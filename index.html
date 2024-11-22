@@ -17,6 +17,8 @@
     <!-- Main CSS Files -->
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="css/formcarry-form.css" />
+
     <!-- Namari Color CSS -->
     <link rel="stylesheet" href="css/namari-color.css">
 
@@ -351,7 +353,23 @@
                     <!--Icon Block-->
                     <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
                         <!--Icon-->
-                        <a href="#" class="button">Contact Form</a>
+                        <div class="formcarry-container">
+                            <!-- <form action="#" method="POST" class="formcarry-form"> -->
+                            <form action="form-process.php" method="POST" class="formcarry-form">  
+                              <label for="name">Your Name</label>
+                              <input type="text" id="name" name="fullName" required />
+                      
+                              <label for="email">Your Email Address</label>
+                              <input type="email" id="email" name="email" required />
+                      
+                              <label for="message">Your Message</label>
+                              <textarea name="message" id="message" cols="130" rows="10"></textarea>
+                      
+                              <button type="submit">Send</button>
+                            </form>
+                          </div>
+
+                        <!-- <a href="#" class="button">Contact Form</a> -->
                         <!-- <div class="icon">
                             <i class="fa fa-html5 fa-2x"></i>
                         </div> -->
