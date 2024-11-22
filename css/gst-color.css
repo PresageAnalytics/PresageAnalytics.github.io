@@ -123,17 +123,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Banner Background and Text Colors */
 
-
-/* @media (max-width: 480px) {
-#banner {
-    background: url("../images/banner-images/banner-image-2.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;   
-    background-size: 500px 600px;
-    background-position: 40% 70%; 
-}
-} */
-@media (min-width: 481px) {
+@media (min-width: 1001px) {
 #banner {
     background-image: url("../images/banner-images/banner-image-1.jpg");
     background-repeat: no-repeat;
@@ -144,6 +134,19 @@ a:hover, #header.nav-solid nav a:hover {
     background-position: right bottom !important;
 }
 }
+
+@media (max-width: 1000px) {
+    #banner {
+        padding-bottom: 60%;
+        background-image: url("../images/banner-images/banner-image-2.jpg");
+        background-repeat: no-repeat;
+        /* background-size: 743px 700px; */
+        background-size: 100% 80%;
+        /* background-size: contain !important; */
+        /* background-attachment: fixed; */
+        background-position: right bottom !important;
+    }
+    }
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
