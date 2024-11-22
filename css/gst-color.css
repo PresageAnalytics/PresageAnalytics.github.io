@@ -125,15 +125,20 @@ a:hover, #header.nav-solid nav a:hover {
 
 @media (min-width: 1001px) {
 #banner {
+    /* padding-left: 25% !important; */
     background-image: url("../images/banner-images/banner-image-2.jpg");
     background-repeat: no-repeat;
-    background-size: 680px 600px;
-    /* background-size: 52% 90%;  this works */
+    /* background-size: 680px 600px; */
+    /* background-origin: content-box, padding-box !important; */
+    /* background-size: 42% 95% !important;
+    background-position: 400px 0px !important; */
     /* background-size: contain !important; */
-    /* background-attachment: fixed; */
     /* background-position: right bottom !important; */
-    background-position: 563px 200px !important;
-    /* background-attachment: fixed; */
+    /* background-position: left top !important; */
+    /* background-position: 100% 150% !important; */
+    /* background-size: 64% 86% !important; */
+    background-size: 52% 90%;
+    background-position: right bottom !important;
 }
 }
 
