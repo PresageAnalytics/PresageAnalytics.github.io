@@ -132,7 +132,8 @@ a:hover, #header.nav-solid nav a:hover {
     /* background-size: contain !important; */
     /* background-attachment: fixed; */
     /* background-position: right bottom !important; */
-    background-position: 80% 100% !important;
+    background-position: 563px 200px !important;
+    /* background-attachment: fixed; */
 }
 }
 
