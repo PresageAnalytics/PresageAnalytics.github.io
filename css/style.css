@@ -150,7 +150,7 @@ input {
     margin: 3px 0;
     outline: none;
     line-height: normal;
-    font-size: 22px;
+    font-size: 14px;
 }
 
 input[type="submit"] {
@@ -477,7 +477,7 @@ section {
 /* --------- 2.4 Navigation ---------- */
 
 #header {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 #header aside {
@@ -486,7 +486,6 @@ section {
 
 #header nav ul {
     text-transform: uppercase;
-
 }
 
 #header nav a {
@@ -494,6 +493,8 @@ section {
     line-height: 71px;
     display: block;
     padding: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 #header nav a:hover {
@@ -759,6 +760,7 @@ h6 {
 
 .section-heading {
     padding: 0 0 15px 0;
+
 }
 
 .section-subtitle {
@@ -769,7 +771,7 @@ h6 {
 .section-heading h3 {
     font-size: 14px;
     font-weight: bold;
-    color: #00c0eb;
+    /* color: #00c0eb !important; */
     letter-spacing: 2px;
     padding-bottom: 0;
 }
@@ -788,7 +790,8 @@ h6 {
 }
 
 #banner h1 {
-    padding-top: 5%;
+    padding-top: 5%; 
+    /* color: #00c0eb !important; */
 }
 
 #banner .section-heading:before {
