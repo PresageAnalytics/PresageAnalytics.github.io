@@ -41,6 +41,10 @@ a:hover, #header.nav-solid nav a:hover {
     background: #d2b356;
 }
 
+#banner-mobile .section-heading:before, .testimonial.classic footer:before {
+    background: #d2b356;
+}
+
 .pricing-block-content:hover {
     border-color:#d2b356;
 }
@@ -128,6 +132,10 @@ a:hover, #header.nav-solid nav a:hover {
     background-size:cover;
 }
 
+#banner-mobile {
+    background: url("../images/banner-images/banner-image-2.jpg") no-repeat center top;
+    background-size:cover;
+}
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
@@ -176,6 +184,24 @@ body {
     font-weight:300;
     color:#111;
 }
+
+/* Banner Mobile Typography */
+
+#banner-mobile h1 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:62px;
+    line-height:60px;
+    font-weight:800;
+    color:#111;
+}
+
+#banner-mobile h2 {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:18px;
+    font-weight:300;
+    color:#111;
+}
+
 
 
 /* Section Title and Subtitle */
@@ -309,6 +335,33 @@ h6 {
     color:#d2b356;
     border-color:#d2b356;
 }
+
+/* ----------Banner Mobile Buttons---------- */
+
+
+/* Button Text */
+
+#banner-mobile .button {
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size:16px;
+    color:#111;
+}
+
+
+/* Button Color */
+
+#banner-mobile .button {
+    border-color:#111;
+}
+
+
+/* Button Hover Color */
+
+#banner-mobile .button:hover {
+    color:#d2b356;
+    border-color:#d2b356;
+}
+
 
 
 /*------------------------------------------------------------------------------------------*/

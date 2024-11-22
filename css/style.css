@@ -803,7 +803,10 @@ h6 {
     margin-top: 30px;
 }
 
-
+header#banner-mobile {
+    position: relative;
+    display: none;
+}
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Content Elements */
