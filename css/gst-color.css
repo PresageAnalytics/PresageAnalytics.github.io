@@ -137,7 +137,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 @media (max-width: 1000px) {
     #banner {
-        padding-bottom: 95% !important;
+        padding-bottom: 135% !important;
         /* padding-left: 25% !important; */
         background-image: url("../images/banner-images/banner-image-3.jpg");
         background-repeat: no-repeat;
