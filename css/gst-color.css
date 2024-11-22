@@ -137,7 +137,9 @@ a:hover, #header.nav-solid nav a:hover {
 #banner {
     background-image: url("../images/banner-images/banner-image-1.jpg");
     background-repeat: no-repeat;
-    background-size: 743px 700px;
+    /* background-size: 743px 700px; */
+    /* background-size: 50% 90%; */
+    background-size: contain;
     background-attachment: fixed;
     background-position: right bottom !important;
 }
