@@ -493,6 +493,7 @@ section {
     line-height: 71px;
     display: block;
     padding: 0 10px;
+    font-weight: bold;
     font-size: 14px;
     color: #00c0eb !important;
 }
