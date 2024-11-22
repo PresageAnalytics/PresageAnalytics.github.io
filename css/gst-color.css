@@ -127,8 +127,8 @@ a:hover, #header.nav-solid nav a:hover {
 #banner {
     background-image: url("../images/banner-images/banner-image-1.jpg");
     background-repeat: no-repeat;
-    /* background-size: 743px 700px; */
-    background-size: 52% 90%;
+    background-size: 743px 650px;
+    /* background-size: 52% 90%;  this works */
     /* background-size: contain !important; */
     /* background-attachment: fixed; */
     background-position: right bottom !important;
