@@ -125,7 +125,7 @@ a:hover, #header.nav-solid nav a:hover {
 
 @media (min-width: 1001px) {
 #banner {
-    background-image: url("../images/banner-images/banner-image-1.jpg");
+    background-image: url("../images/banner-images/banner-image-2.jpg");
     background-repeat: no-repeat;
     background-size: 680px 600px;
     /* background-size: 52% 90%;  this works */
@@ -139,7 +139,7 @@ a:hover, #header.nav-solid nav a:hover {
 @media (max-width: 1000px) {
     #banner {
         padding-bottom: 185% !important;
-        background-image: url("../images/banner-images/banner-image-1.jpg");
+        background-image: url("../images/banner-images/banner-image-2.jpg");
         background-repeat: no-repeat;
         /* background-size: 743px 700px; */
         background-size: 95% 45%;
